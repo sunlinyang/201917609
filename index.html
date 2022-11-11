@@ -1,0 +1,47 @@
+
+
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+   
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+ 
+</head>
+
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="./img/1.jpg" width="100%" alt="">
+            <h3 class="title">Welcome to my personal website</h3>
+            <img class="icon" src="./img/down.png" alt="">
+            <div class='ribbon'>
+                <a href='./index.html'><span>欢迎界面</span></a>
+                <a href='./about.html'><span>个人主页</span></a>
+                <a href='./form.html'><span>注册</span></a>
+
+            </div>
+
+        </div>
+   
+             <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="./video/music.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./img/music_img.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
